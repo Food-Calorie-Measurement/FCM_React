@@ -31,7 +31,7 @@
     "eslint-plugin-react-refresh": "^0.4.9",
     "globals": "^15.9.0",
     "http-proxy-middleware": "^3.0.3",
-    "vite": "5.4.6"
+    "vite": "^5.4.6"
   },
   "description": "``` 📦src  ┣ 📂api  ┣ 📂assets  ┣ 📂components  ┣ 📂context  ┣ 📂hooks  ┣ 📂layout  ┣ 📂pages  ┣ 📂router  ┣ 📂slices  ┣ 📂store  ┣ 📂styles  ┣ 📂utils  ┣ 📜App.css  ┣ 📜App.jsx  ┗ 📜main.jsx ```",
   "main": "eslint.config.js",

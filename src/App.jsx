@@ -18,11 +18,12 @@ function App() {
       <Route path="/community" element={<CommunityPage />} />
       <Route path="/community/:id" element={<CommunityPageDetail />} />
       <Route path="/question" element={<QuestionAndAnswerPage />} />
+      <Route path="/question/:id" element={<CommunityPageDetail />} />
       <Route path="/login" element={<LoginPage />} />
       <Route path="/signup" element={<SignupPage />} />
-        <Route path="/write" element={<WriterPage />} />
+      <Route path="/write" element={<WriterPage />} />
       <Route path="*" element={<NotFoundPage />} />
-        <Route path="/calendar" element={<CalendarPage />} />
+      <Route path="/calendar" element={<CalendarPage />} />
     </Routes>
   );
 }
